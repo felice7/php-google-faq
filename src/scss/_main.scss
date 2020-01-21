@@ -1,0 +1,22 @@
+main {
+  margin-top: 200px;
+}
+
+.container {
+  width: $width;
+  margin: 0 auto;
+}
+
+.domanda {
+  font-size: 22px;
+  font-family: $Montserrat;
+  color: $color;
+  margin-bottom: 20px;
+}
+
+.risposta {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: $Roboto;
+  margin-bottom: 60px;
+}

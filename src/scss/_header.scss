@@ -1,0 +1,45 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: $Montserrat;
+  font-weight: bold;
+  color: $color;
+  background-color: #fff;
+}
+.header-top {
+  display: flex;
+  margin-left: 30px;
+}
+
+.header-top h1 {
+  position: relative;
+  top: 50%;
+}
+
+.header-top h2 {
+  position: relative;
+  font-size: 16px;
+  margin-left: 15px;
+  top: 75%;
+}
+nav ul{
+  float: left;
+  display: flex;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+nav a {
+  float: right;
+  text-decoration: none;
+  margin-right: 30px;
+  color: $color;
+  font-size: 14px;
+}
